@@ -1,0 +1,18 @@
+{
+  "name": "govuk_template__underscore",
+  "version": "0.0.0",
+  "description": "Temporary solution for publishing _underscore templates based on govuk_template",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alphagov/govuk_template__underscore.git"
+  },
+  "author": "Jacob Ashdown <jacob.ashdown@digital.cabinet-office.gov.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alphagov/govuk_template__underscore/issues"
+  }
+}
