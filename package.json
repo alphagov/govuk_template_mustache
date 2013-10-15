@@ -1,18 +1,24 @@
 {
-  "name": "govuk_template__underscore",
-  "version": "0.0.0",
-  "description": "Temporary solution for publishing _underscore templates based on govuk_template",
+  "name": "govuk_template_mustache",
+  "version": "0.2.1",
+  "description": "Temporary solution for publishing mustache templates based on govuk_template",
   "main": "index.js",
   "scripts": {
     "test": "grunt jasmine"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/alphagov/govuk_template__underscore.git"
+    "url": "git://github.com/alphagov/govuk_template_mustache.git"
   },
-  "author": "Jacob Ashdown <jacob.ashdown@digital.cabinet-office.gov.uk>",
+  "author": {
+    "name": "Jacob Ashdown",
+    "email": "jacob.ashdown@digital.cabinet-office.gov.uk"
+  },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alphagov/govuk_template__underscore/issues"
-  }
+    "url": "https://github.com/alphagov/govuk_template_mustache/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "govuk_template_mustache@0.2.1",
+  "_from": "govuk_template_mustache@0.2.1"
 }
