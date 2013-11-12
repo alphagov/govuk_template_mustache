@@ -202,6 +202,9 @@ b,
 strong {
   font-weight: 600; }
 
+img {
+  border: 0; }
+
 button {
   *overflow: visible; }
 
@@ -357,19 +360,34 @@ select:focus,
   #global-header #logo {
     float: left;
     position: relative;
-    width: 166px;
+    top: 1px;
     height: 30px;
-    overflow: hidden; }
+    overflow: visible;
+    vertical-align: baseline;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1em;
+    text-decoration: none;
+    margin-bottom: 1px; }
     #global-header #logo img {
-      position: absolute;
-      left: -166px;
-      top: 0;
-      border: none;
-      /* scale oversized image to container bounds */
-      width: 200%;
-      height: 300%; }
-    #global-header #logo:hover img {
-      top: -30px; }
+      position: relative;
+      top: -3px;
+      width: 35px;
+      height: 31px;
+      padding-right: 8px;
+      float: left;
+      display: inline;
+      line-height: inherit;
+      border: none; }
+    #global-header #logo span > span {
+      margin: 0 1px 0 -6px; }
+    #global-header #logo:hover, #global-header #logo:focus {
+      text-decoration: none;
+      border-bottom: 1px solid;
+      margin-bottom: 0; }
+    #global-header #logo:active {
+      color: #2b8cc4; }
 
 /* Global cookie message */
 .js-enabled #global-cookie-message {
