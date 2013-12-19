@@ -1,6 +1,6 @@
 {
   "name": "govuk_template_mustache",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "description": "Temporary solution for publishing mustache templates based on govuk_template",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,6 @@
     "url": "https://github.com/alphagov/govuk_template_mustache/issues"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "govuk_template_mustache@0.3.5",
-  "_from": "govuk_template_mustache@0.3.5"
+  "_id": "govuk_template_mustache@0.3.6",
+  "_from": "govuk_template_mustache@0.3.6"
 }
