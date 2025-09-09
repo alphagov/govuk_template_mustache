@@ -1,3 +1,6 @@
+> [!WARNING]
+> GOV.UK Template is deprecated. To design your service using actively maintained and accessible styles, components and patterns, [migrate to the GOV.UK Design System](https://frontend.design-system.service.gov.uk/v4/migrating-from-legacy-products/).
+
 [![npm govuk_template_mustache](http://img.shields.io/npm/v/govuk_template_mustache.svg)](https://www.npmjs.org/package/govuk_template_mustache)
 
 # {{ mustache }} version of the GOV.UK template
